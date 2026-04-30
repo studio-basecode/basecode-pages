@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Basecode | Szczegóły Działalności</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="scene">
+      <div class="projector-device">
+        <div class="projector-lens"></div>
+        <div class="projector-body"></div>
+      </div>
+
+      <div class="light-beam light-beam-0"></div>
+      <div class="light-beam light-beam-1"></div>
+      <div class="light-beam light-beam-2"></div>
+      <div class="light-beam light-beam-3"></div>
+      <div class="light-beam light-beam-4"></div>
+      <div class="light-beam light-beam-5"></div>
+      <div class="light-beam light-beam-6"></div>
+      <div class="light-beam light-beam-7"></div>
+      <div class="light-beam light-beam-8"></div>
+      <div class="light-beam light-beam-final"></div>
+
+      <div class="login-card play-store-mode">
+        <div class="scan-line"></div>
+
+        <div class="card-content scrollable-content">
+          <div class="ps-header">
+            <div class="ps-icon">B</div>
+            <div class="ps-title-info">
+              <h1 class="dynamic-nick" id="app-name">Basecode</h1>
+              <p id="dev-name"></p>
+              <div class="ps-tags">Działalność · Usługi IT · Portfolio</div>
+            </div>
+          </div>
+
+          <div class="ps-stats">
+            <div class="stat-col">
+              <strong id="app-rating">0</strong> <span class="star">★</span><br>
+              <span class="stat-label" id="app-reviews">0 opinii</span>
+            </div>
+            <div class="stat-divider"></div>
+            <div class="stat-col">
+              <strong id="app-downloads">0</strong><br>
+              <span class="stat-label">Wizyt</span>
+            </div>
+            <div class="stat-divider"></div>
+            <div class="stat-col">
+              <strong>100%</strong><br>
+              <span class="stat-label">Zaangażowania</span>
+            </div>
+          </div>
+
+          <button class="btn-install" id="action-btn">ZAINICJUJ WSPÓŁPRACĘ</button>
+
+          <div class="ps-section">
+            <h2 class="section-label">Ostatnie realizacje / Zrzuty</h2>
+            <div class="projects-horizontal-scroll" id="projects-list">
+            </div>
+          </div>
+
+          <div class="ps-section">
+            <h2 class="section-label">O tej działalności</h2>
+            <p class="main-bio-text" id="bio-text">
+              <span class="loading-dots">Pobieranie strumienia danych</span>
+            </p>
+            <div class="tags-container" id="skills-tags"></div>
+          </div>
+
+          <div class="ps-section">
+            <h2 class="section-label">Kontakt z deweloperem</h2>
+            <div class="social-links-vertical" id="social-links">
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
